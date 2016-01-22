@@ -1,6 +1,6 @@
 var app = angular.module('Workspace', ['ajoslin.promise-tracker']);
 
-   app.host = 'www.nigelhole.com';
+   app.host = 'localhost';
    
 
    app.controller('HomeController', function ($scope, $http, $log, promiseTracker, $timeout) {

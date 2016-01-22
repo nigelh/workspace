@@ -1,4 +1,4 @@
-var server = 'www.nigelhole.com';
+var server = 'localhost';
 
 function populateTeamsTable() {
 	
