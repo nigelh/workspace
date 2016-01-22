@@ -1,0 +1,326 @@
+/* white base coat */
+
+body {
+
+	background: #ffffff;
+
+	font-size: 12px;
+
+}
+
+
+
+a:link, a:visited {
+
+	color: #db5b15; 
+
+}
+
+
+
+a:hover {
+
+	color: #00c;
+
+}
+
+
+
+td,tr,p,div {
+
+	color: #333;
+
+}
+
+
+
+h3, .componentheading {
+
+	color: #000;
+
+}
+
+
+
+.contentheading {
+
+	font-size: 16px;
+	color: #db5b15;
+
+}
+
+
+
+table.contenttoc {
+
+	border: 2px solid #E0E8F1;
+
+}
+
+
+
+td.sectiontableheader {
+
+  background: #EFF3F8;
+
+  color: #333;
+
+  border-right: 1px solid #fff;
+
+}
+
+
+
+.small {
+
+	color: #6D7E92;
+
+}
+
+
+
+.modifydate {
+
+	color: #6D7E92;
+
+}
+
+
+
+.createdate {
+
+	color: #6D7E92;
+
+}
+
+
+
+td.left_shadow {
+
+  width: 8px;
+
+  background: url(../images/gb_shadow_l.png) repeat-y;
+
+}
+
+
+
+td.right_shadow {
+
+  width: 8px;
+
+  background: url(../images/gb_shadow_r.png) repeat-y;
+
+}
+
+
+
+div.left_bot_shadow {
+
+  height: 18px;
+
+  background: url(../images/gb_shadow_bl.png) top left no-repeat;
+
+}
+
+
+
+div.right_bot_shadow {
+
+  height: 18px;
+
+  background: url(../images/gb_shadow_br.png) top right no-repeat;
+
+}
+
+
+
+td.bottom_shadow {
+
+  text-align: center;
+
+  height: 18px;
+
+  vertical-align: top;
+
+  background: url(../images/gb_shadow_b.png) bottom left repeat-x;
+
+}
+
+
+
+td.wrapper {
+
+  background: #fff;
+
+}
+
+
+
+div#logo {
+
+	background: url(../images/gb_logo.png) top left no-repeat;
+
+	height: 71px;
+
+}
+
+
+
+div.border {
+
+	border: 1px solid #E0E8F1;
+
+	padding: 2px;
+
+}
+
+
+
+div.imagebanner {
+
+	background: #fff url(../images/banner.jpg) top left ;
+
+}
+
+
+
+div.newsflash {
+
+	background: #E0E8F1;
+
+}
+
+
+
+div.horizmenu, div.submenu {
+
+	background: #636462;
+
+}
+
+
+
+div.submenu {
+
+	background: #db5b15;
+
+	border-top: 1px solid #fff;
+
+}
+
+
+
+div.horizmenu a:link, div.horizmenu a:visited {
+
+	border-right: 1px solid #fff;
+
+	border-bottom: 1px solid #fff;
+
+	color: #fff;
+
+}
+
+
+
+div.submenu a:link, div.submenu a:visited {
+
+	color: #fff;
+
+}
+
+
+
+div.horizmenu a:hover, div.submenu a:hover {
+
+	background: #6C7D91;
+
+	color: #fff;
+
+}
+
+
+
+div.horizmenu a.active_menu:link, div.horizmenu a.active_menu:visited{
+
+  background: #db5b15;
+
+  color: #fff;
+
+  border-bottom: 1px solid #db5b15;
+
+}
+
+
+
+div.moduletable, div.moduletable-darker, div.moduletable-lighter {
+
+	background: #EFF3F8;
+
+	border: 2px solid #E0E8F1;
+
+}
+
+
+
+div.moduletable-darker {
+
+	background: #E0E8F1;
+
+}
+
+
+
+div.moduletable-lighter, table.userblock div.moduletable  {
+
+	background: #FBFCFD;
+
+}
+
+
+
+div.moduletable h3, div.moduletable-lighter h3, div.moduletable-darker h3 {
+
+	background: url(../images/gb_addition.png) no-repeat;
+
+}
+
+
+
+div#footer {
+
+	color: #7D9EC4;
+
+}
+
+
+
+.contrast {
+
+	background: url(../images/gb_contrast_toggle.png);
+
+}
+
+
+
+.smaller {
+
+	background: url(../images/gb_font_smaller.png);
+
+}
+
+
+
+.larger {
+
+	background: url(../images/gb_font_larger.png);	
+
+}
+
+
+
+.reset {
+
+	background: url(../images/gb_reset.png);		
+
+}

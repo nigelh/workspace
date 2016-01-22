@@ -1,0 +1,59 @@
+/* custom stuff */
+
+
+.componentheading {
+  padding-top: 10px;
+}
+
+
+tr.sectiontableentry1 td, tr.sectiontableentry2 td {
+  padding: 4px;
+}
+
+td.sectiontableentry1, td.sectiontableentry2{
+  padding: 3px;
+}
+
+table.contentpane, table.contentpaneopen {
+	width: 100%;
+	border: 0px solid #00f;
+}
+
+ul {
+	margin: 0;
+	padding-left: 15px;
+}
+
+ul li {
+
+}
+
+.clr {
+	clear: both;
+}
+
+div.back_button {
+	margin-top: 15px;
+}
+
+div.mosimage_caption {
+
+}
+
+div.blog_more {
+  margin-top: 30px;
+}
+
+li.latestnews {
+  margin-top: 3px;
+}
+
+.pagenav {
+  font-weight: bold;
+  line-height: 50px;
+}
+
+div.syndicate div {
+  text-align: center;
+}
+

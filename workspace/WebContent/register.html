@@ -1,0 +1,122 @@
+
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr valign="top" >
+
+			<td id="body" width="501">
+				<div class="border" id="middle">
+
+					<table width="100%" cellpadding="0" cellspacing="0" border="0"
+						class="contentpane">
+						<tr>
+							<td>
+								<table border="0" width="100%">
+									<tr>
+										<td>Registered users are able to log on to this site as guests who are allowed
+										    access to the Job Tracker administration pages.</td>
+										<td rowspan="2" align="right" valign="top"></td>
+									</tr>
+									<tr>
+										<td>
+											<table width="100%" cellpadding="0" cellspacing="0"
+												border="0">
+											</table> <br />
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<br />
+								    <div  data-ng-controller="RegisterController" >
+									<form    name="RegisterForm" id="RegisterForm" novalidate role="form" data-ng-init="registration_init">
+										First Name: <br /> 
+										<input type="text" name="firstName" id="firstName" data-ng-model="firstName" data-ng-minlength="3" size="36" class="inputbox" value="" required /> 
+										<span
+										data-ng-show="submitted && RegisterForm.firstName.$error.required">Required!</span>
+										<span
+										data-ng-show="submitted && RegisterForm.firstName.$error.minlength">Minimum length 3 chars!</span>
+										<br />
+										Second Name: <br /> 
+										<input type="text" name="secondName" id="secondName" data-ng-model="secondName" data-ng-minlength="3" size="36" class="inputbox" value="" required /> 
+										<span
+										data-ng-show="submitted && RegisterForm.secondName.$error.required">Required!</span>
+										<span
+										data-ng-show="submitted && RegisterForm.secondName.$error.minlength">Minimum length 3 chars!</span>
+										<br />
+										 Email address: <br /> 
+										 <input type="email" name="email" id="email" data-ng-model="email" size="36" class="inputbox" value="" required data-ng-pattern="email_reg" />
+										 <span
+										data-ng-show="submitted && RegisterForm.email.$error.required">Required!</span>
+										<span data-ng-show="submitted && RegisterForm.email.$error.pattern">Invalid Format!</span> <br />
+										Confirm Email: <br /> 
+										 <input type="email" name="emailConfirm" id="emailConfirm" data-ng-model="emailConfirm" size="36" class="inputbox"  value="" required />
+										 <span data-ng-show="submitted && RegisterForm.emailConfirm.$error.required">Required!</span> 
+										<span data-ng-show="submitted && !RegisterForm.email.$error.required && !emailMatch()">Not matching!</span>
+										  <br /> 
+										 Password: <br />
+										  <input type="password" name="password" id="password" data-ng-model="password" size="36" class="inputbox" value=""  required /> 
+										  <span
+										data-ng-show="submitted && RegisterForm.password.$error.required">Required!</span>
+										  <span data-ng-show="submitted && !RegisterForm.password.$error.required && !checkPassword() ">At least 6 alphanumeric chars and upper and lower case</span>
+										  
+										  <br /> 
+										 Confirm Password: <br />
+										  <input type="password" name="confirm" id="confirm" data-ng-model="confirm" size="36" class="inputbox" value="" required />
+										  <span data-ng-show="submitted && RegisterForm.confirm.$error.required">Required!</span>
+										  <span data-ng-show="submitted && !RegisterForm.password.$error.required && !passwordMatch()">Not matching!</span> 
+										  <br />   
+										  Telephone No: <br />
+										  <input type="text" name="phone" id="phone" data-ng-model="phone" size="36" class="inputbox"  value="" required />
+										  <br /> 
+										   Mobile: <br />
+										  <input type="text" name="mobile" id="mobile" data-ng-model="mobile" size="36" class="inputbox"  value="" required  />
+										  <span data-ng-show="submitted && RegisterForm.mobile.$error.required">Required!</span>
+										  <br />    
+										 Subject: <br />
+										<input type="text" name="subject" id="subject" data-ng-model="subject" size="30" class="inputbox" value="Registration" /> <br /> <br />
+										 Enter a message: <br />
+										<textarea cols="50" name="message" rows="10" id="message" data-ng-model="message" class="inputbox"></textarea>
+										<br /> <br /> 
+										<div>
+										<button id="register-button" name="register-button"
+												data-ng-disabled="progress.active()" 
+												data-ng-click="register(RegisterForm)" >Register</button> 
+										<button id="reset-button" name="reset-button"
+												data-ng-disabled="progress.active()" 
+												data-ng-click="reset(RegisterForm)" >Reset</button>
+										</div>
+										<div id="messages" data-ng-show="messages" data-ng-bind="messages"></div>
+									</form>
+									</div>
+								
+							</td>
+						</tr>
+					</table>
+				</div>
+			</td>
+			<td id="right" width="256">
+				<div class="moduletable">
+					<h3 align="right">Address Details</h3>
+					<script type="text/javascript"
+						src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+					<a href="skype:nigel_hole?call"><img
+						src="images/skype_call_me.png"
+						style="border: none;" width="124" height="52" alt="Skype Me!" /></a>
+					<br/>Nigel Hole Workspace Ltd<br/>1, Cedar Road<br/>Gatley<br/>Cheadle<br/>Cheshire<br/>United
+										Kingdom<br/>SK8 4LZ<br/><br/>Phone : +44 (0)161
+													428 6850<br/><br/>Contact : Nigel Hole<br/>
+				</div>
+				<div class="moduletable">
+					<h3 align="right">Future Projects</h3>
+					<p> I undertake all kinds of Java related software development
+						projects from large scale companies to small startup establishments. If you are a
+						fledgling company with a product idea or opportunity which has
+						considerable commercial potential, but don't have the resources
+						available to realise it, talk to me, I am open to the prospect
+						of joint ventures.</p>
+				</div>
+				</td>
+				</tr>
+	</table>
+

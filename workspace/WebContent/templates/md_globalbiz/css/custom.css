@@ -1,0 +1,492 @@
+/* default base coat */
+
+html {
+
+  height: 100%;
+
+  margin-bottom: 1px;
+
+}
+
+
+
+body {
+
+	margin: 0px 0px 0px 0px;
+
+	height: 100%;
+
+	height: 100%; 
+
+	padding: 0;
+
+	margin-bottom: 1px;
+
+	font-size: 86%;
+
+}
+
+
+
+a:link, a:visited {
+
+	text-decoration: none;
+
+	font-weight: normal;
+
+}
+
+
+
+a:hover {
+
+	text-decoration: underline;
+
+	font-weight: normal;
+
+}
+
+
+
+a.mainlevel {
+
+	background: url(../images/arrow.png) 0 -1px no-repeat;
+
+	padding-left: 20px;
+
+}
+
+
+
+div, p, table, td, th {
+
+	font-size: 1em;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	line-height: 1.3em;
+
+}
+
+
+
+div#content_area h3, div#content_area .componentheading {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	margin: 0;
+
+	padding: 0;
+
+	margin-bottom: 5px;
+
+	font-size: 1.1em;
+
+	font-weight: bold;
+
+}
+
+
+
+div#content_area .contentheading {
+
+	font-family: Arial, Helvetica, sans-serif;
+
+  padding: 0px 0px 0px 0px;
+
+	font-size: 2.2em;
+
+	font-weight: bold;
+
+	height: 45px;
+
+	vertical-align: bottom;
+
+	text-align: left;
+
+	width: 100%;
+
+}
+
+
+
+.buttonheading {
+
+	padding-bottom: 8px !important;
+
+	padding-bottom: 4px;
+
+	vertical-align: bottom;
+
+}
+
+
+
+table.contenttoc {
+
+	padding: 5px;
+
+}
+
+
+
+td.sectiontableheader {
+
+  font-weight: bold;
+
+  padding: 4px;
+
+}
+
+
+
+td.wrapper {
+
+  width: 973px;
+
+  text-align: left;
+
+}
+
+
+
+div.bottomspacer {
+
+  height: 15px;
+
+}
+
+
+
+div.main_padding {
+
+	padding: 0 3px;
+
+}
+
+
+
+div#links {
+
+	float: right;
+
+}
+
+
+
+div#searchbox {
+
+	clear: both;
+
+	float: right;
+
+	padding-right: 2px;
+
+	padding-top: 5px;
+
+}
+
+
+
+
+
+div.center {
+
+  text-align: center;
+
+}
+
+
+
+table#main {
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  text-align: left;
+
+}
+
+
+
+table#inner {
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  text-align: left;
+
+}
+
+
+
+
+
+div#surround {
+
+	float: left;
+
+	width: auto !important;
+
+	width: 967px;
+
+}
+
+
+
+div#middle {
+
+	float: none !important;
+
+	float: left;
+
+	margin-bottom: 2px;
+
+	padding: 15px;
+
+}
+
+
+
+div.imagebanner {
+
+	height: 139px;
+
+}
+
+
+
+div.newsflash {
+
+	float: right;
+
+	width: 256px;
+
+	height: 139px;
+
+	overflow: hidden;
+
+}
+
+
+
+div.horizmenu, div.submenu {
+
+	margin: 2px 0;
+
+	float: left;
+
+	width: 959px;
+
+	z-index: 100;
+
+}
+
+
+
+div.submenu {
+
+	border-bottom: 0px;
+
+	margin-top: -3px;
+
+	z-index: 101;
+
+	height: 20px;
+
+}
+
+
+
+
+
+div.horizmenu ul, div.submenu ul {
+
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+
+  float: left;
+
+}
+
+
+
+div.horizmenu li, div.submenu li {
+
+	float: left;
+
+	margin: 0;
+
+	padding: 0;
+
+	background: none;
+
+}
+
+
+
+div.horizmenu a:link, div.horizmenu a:visited, div.submenu a:link, div.submenu a:visited {
+
+	float:left;
+
+  display:block;
+
+  height: 25px;
+
+  line-height: 25px;
+
+  padding: 0 20px;
+
+}
+
+
+
+div.submenu a:link, div.submenu a:visited {
+
+	height: 20px;
+
+	line-height: 20px;
+
+	border-right: 0px;
+
+	border-bottom: 0px;
+
+}
+
+
+
+div.horizmenu a:hover, div.submenu a:hover {
+
+	text-decoration: none;
+
+}
+
+
+
+div.horizmenu a.active_menu:link, div.horizmenu a.active_menu:visited{
+
+  position: relative;
+
+  z-index: 102;
+
+}
+
+
+
+td#body {
+
+	width: 701px;
+
+}
+
+
+
+td#right {
+
+	padding-left: 2px;
+
+	width: 256px;
+
+}
+
+
+
+
+
+
+
+div.moduletable, div.moduletable-darker, div.moduletable-lighter {
+
+	margin-bottom: 2px;
+
+	padding: 10px;
+
+	width: auto !important;
+
+	width: 100%;
+
+}
+
+
+
+div.newsflash div.moduletable {
+
+	background: none;
+
+	margin: 0;
+
+	padding: 5px;
+
+}
+
+
+
+div#content_area div.moduletable h3, div#content_area div.moduletable-lighter h3, div#content_area div.moduletable-darker h3 {
+
+	line-height: 20px;
+
+	padding-left: 25px;
+
+}
+
+
+
+div#pathway {
+
+	margin-bottom: 10px;
+
+}
+
+
+
+div#footer {
+
+	text-align: center;
+
+	font-size: .9em;
+
+	margin-top: -1px !important;
+
+	margin-top: 0;
+
+}
+
+
+
+div#links {
+
+	margin: 5px 0;
+
+}
+
+
+
+div#links a {
+
+	border: 0;	
+
+}
+
+
+
+table.userblock {
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+
+
+td.blockspacer {
+
+	width: 2px;
+
+}
+

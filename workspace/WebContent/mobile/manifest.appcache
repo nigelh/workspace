@@ -1,0 +1,40 @@
+CACHE MANIFEST:
+# jQuery core
+http://code.jquery.com/1.0/jquery.mobile-1.0.min.css
+http://code.jquery.com/1.0/jquery.mobile-1.0.min.js
+http://code.jquery.com/1.0/images/ajax-loader.png
+http://code.jquery.com/1.0/images/icons-18-black.png
+http://code.jquery.com/1.0/images/icons-18-white.png
+http://code.jquery.com/1.0/images/icons-36-black.png
+http://code.jquery.com/1.0/images/icons-36-white.png
+
+#MyApp files, relative to the HTML file
+index.css
+feedback.html
+feedback.php
+index.js
+
+images/ajax-loader.png
+images/aqa.png
+images/asset.facebook.logo.lg.png
+images/astrazeneca.jpg
+images/ford.jpg
+images/freashtl.png
+images/fujitsu.gif
+images/ge.gif
+images/gmp.png
+images/halifax.gif
+images/informed.jpg
+images/lifeit.gif
+images/logo.png
+images/nigelhole.jpg
+images/shopdirect.jpg
+images/shropshire.jpg
+images/snapon.jpg
+images/teredyne.gif
+images/unitedutilities.gif
+images/unitedutilities.png
+images/vitalpetproducts.gif
+images/xicon.png
+
+

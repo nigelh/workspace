@@ -1,0 +1,132 @@
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tr valign="top">
+				<td id="body" width="501">
+			<div class="border" id="middle">
+				<table class="blog" cellpadding="0" cellspacing="0">
+					<tr>
+						<td valign="top"><div>
+								<table class="contentpaneopen">
+									<tr>
+										<td class="contentheading" width="100%">Welcome To My
+											Workspace</td>
+									</tr>
+								</table>
+
+								<table class="contentpaneopen">
+									<tr>
+										<td valign="top" colspan="2">
+											<div style="float: right;">
+												<img src="images/nigelh.jpg" width="150" height="136"
+													hspace="6" alt="Image" title="Image" border="0"
+													style="background-color: #F2F5F7;" />
+											</div>
+
+											<div>
+												<br />Hi and welcome to my workspace. <br /> <br />This
+												web-site is my workspace area where I experiment and explore
+												up coming technologies - try them out in practical and
+												realistic projects that have some future value.<br /> <br />
+												I am currently interested in emerging Java flavoured mobile
+												technologies that cover Android with PhoneGap and jQuery
+												Mobile. Please view these projects - please select the above
+												"Projects" tab. If you are also thinking of using these new
+												technologies in the mobile phone world or just thinking of
+												making your business web site to go mobile - then you will
+												find these projects relevant. <br /> <br /> I have been a
+												Java consultant for the past 15 years - completing projects
+												in diverse companies big and small, from large scale
+												enterprise solutions, to smaller scale developments, my
+												clients get the same high level of professional service,
+												approach and commitment. <br /> <br />I am a dedicated
+												follower of the Java open source community and have "hands
+												on" experience in the many useful commercial packages out
+												there. <br /> <br /> Talk to me the next time technology
+												gets in your way, you'd be surprised how quickly things can
+												move.<br /> <br />Techno-bable free technology, in
+												English.
+											</div>
+										</td>
+									</tr>
+								</table>
+							</div></td>
+					</tr>
+				</table>
+			</div>
+
+		</td>
+				<td id="right" width="256">
+					<div class="moduletable"  data-ng-controller="HomeController" data-ng-init="init()">
+						<div id="messages" data-ng-show="messages" data-ng-bind="messages"></div>
+						<div data-ng-show="progress.active()"
+							style="color: red;">Sending..</div>
+						<form name="GuestLoginForm" id="GuestLoginForm" novalidate role="form">
+							<table width="60%" border="0" cellspacing="3" cellpadding="3"
+								align="center">
+								<tr >
+								    <td colspan="3" align="center" >Registered Guest Login:</td>
+								</tr>
+								<tr>
+									<td>Email Address:</td>
+									<td><input name="email" data-ng-model="email"
+										type="email" class="inputbox" size="36" required /> 
+										<span data-ng-show="submitted && GuestLoginForm.email.$error.required">Required!</span>
+										<span data-ng-show="submitted && GuestLoginForm.email.$error.email">Invalid email address!</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Password:</td>
+									<td><input type="password" name="password"
+										data-ng-model="password" class="inputbox" size="36" required />
+										<span
+										data-ng-show="submitted && GuestLoginForm.password.$error.required">Required!</span>
+									</td>
+								</tr>
+								
+								<tr>
+									<td colspan="3" align="center">
+										<div>
+											<button name="login-button"
+												data-ng-disabled="progress.active()"
+												data-ng-click="logon(GuestLoginForm)">Login</button>
+										</div>
+									</td>
+								</tr>
+								<tr>
+								<td colspan="3">
+									<div>Forgotten your password?</div> 
+									<div>Enter your email address above and select to send.</div>
+
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3" align="center">
+									<div>
+										<button id="password-send-button">Send Password</button>
+									</div>
+								</td>
+							</tr>
+								
+							</table>
+						</form>
+						<form name="GuestLogoutForm" id="GuestLogoutForm" novalidate role="form" style="display: none;">
+							<table width="60%" border="0" cellspacing="3" cellpadding="3"
+								align="center">
+								<tr>
+								    <td id=username>username</td>
+									<td>
+										<div>
+											<button id="logout-button" name="logout-button"
+												data-ng-disabled="progress.active()" 
+												data-ng-click="logout(GuestLogoutForm)" >Logout</button>
+										</div> 
+									</td>
+								</tr>
+							</table>
+						</form>
+
+						
+
+					</div>
+				</td>
+			</tr>
+		</table>
